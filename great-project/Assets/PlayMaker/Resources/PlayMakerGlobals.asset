@@ -48,3 +48,9 @@ MonoBehaviour:
   - Out of Level
   - Spawn
   - Unaware
+  - NotPickable
+  - Pickable
+  - START PICK
+  - RESET
+  - SOutOfR
+  - SInR
