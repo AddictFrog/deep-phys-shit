@@ -13,11 +13,23 @@ MonoBehaviour:
   m_Name: PlayMakerGlobals
   m_EditorClassIdentifier: 
   variables:
-    floatVariables: []
+    floatVariables:
+    - useVariable: 1
+      name: 
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables: []
     boolVariables:
     - useVariable: 1
       name: Restart
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: 
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -36,7 +48,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 000000000000000000000000
   events:
   - GetKey
   - Turn Off Ray
@@ -56,3 +68,5 @@ MonoBehaviour:
   - SInR
   - PlateActivated
   - PlateNotActivated
+  - Exists
+  - Removed

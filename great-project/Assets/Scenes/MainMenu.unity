@@ -562,7 +562,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: SampleScene
+          value: TestField
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
